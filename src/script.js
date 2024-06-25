@@ -48,3 +48,12 @@ controls.innerHTML = "▶";
 false
 );
 } 
+
+// Function to load the video when the thumbnail is clicked
+function loadVideo() {
+    const thumbnail = document.getElementById('video-thumbnail');
+    const container = thumbnail.parentElement;
+    container.innerHTML = '<iframe class="custom-video__video" width="100%" height="auto" src="https://www.youtube.com/embed/3hK3IGkxMao?enablejsapi=1&autoplay=1&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+    const controls = container.nextElementSibling;
+    controls.style.display = "none"; // Oculta os controles no início
+}
