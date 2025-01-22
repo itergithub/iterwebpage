@@ -731,6 +731,20 @@ body {
     }
 }
 
+.btnSustentabilidade {
+    color: #ffffff;
+    background-color: #3BBAB6;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.btnSustentabilidade:hover {
+    background-color: #32a29f; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 
 .bttSaibaMais {
     width: 120px !important;
